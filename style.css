@@ -4,17 +4,21 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .block {
   width: 500px;
   margin: 0 auto;
   display: block;
 }
+
 .block_text-right {
   text-align: right;
 }
+
 .block__img {
   width: 100%;
 }
+
 .block__link {
   font-family: fantasy, cursive;
 }
@@ -25,24 +29,33 @@
   }
 }
 
-.task-list__input, .add-block__input, .task-list__label {
+.task-list__input,
+.add-block__input,
+.task-list__label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .add-block__item {
   display: flex;
 }
+
 .task-list {
   margin: 0;
   padding: 0px;
 }
-.task-list__item, .heading {
+
+.task-list__item,
+.heading {
   list-style: none;
 }
-.input, .button{
+
+.input,
+.button {
   outline: none;
 }
+
 .button {
   background: none;
   border: 0px;
@@ -52,11 +65,14 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
-.heading, .add-block__label {
+.heading,
+.add-block__label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -65,6 +81,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .input_type-text {
   margin: 0;
   font-size: 18px;
@@ -77,6 +94,7 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .input_type-text:focus {
   color: #333;
 }
@@ -86,6 +104,7 @@
   display: block;
   margin: 0 0 20px;
 }
+
 .add-block__input {
   width: 318px;
 }
@@ -95,32 +114,38 @@
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.task-list__item > .input, .task-list__item > .button, .task-list__item > .task-list__label {
+
+.task-list__item > .input,
+.task-list__item > .button,
+.task-list__item > .task-list__label {
   vertical-align: middle;
 }
 
 .task-list__item > .task-list__checkbox {
   margin: 0 10px;
 }
+
 .task-list__item > .task-list__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .task-list__item > .input_type-text {
   width: 226px;
 }
+
 .task-list__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .task-list__img:hover {
   transform: rotateZ(0);
 }
