@@ -34,14 +34,14 @@
   display: flex;
 }
 .task-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .task-list__item, .heading {
-  list-style:none;
+  list-style: none;
 }
 .input, .button{
-  outline:none;
+  outline: none;
 }
 .button {
   background: none;
@@ -133,14 +133,14 @@
 
 /* Edit Task */
 .task-list .input_type-text {
-  display:none
+  display: none
 }
 
 .task-list .task-list__item_edit .input_type-text{
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .task-list .task-list__item_edit .task-list__label {
-  display:none;
+  display: none;
 }
