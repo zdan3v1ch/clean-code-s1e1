@@ -20,8 +20,9 @@
 }
 
 @media (max-width:768px) {
-.block_text-right { text-align: center;
-}
+  .block_text-right {
+    text-align: center;
+  }
 }
 
 .task-list__input, .add-block__input, .task-list__label {
